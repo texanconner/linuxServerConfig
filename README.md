@@ -10,13 +10,17 @@ The website is accessible through the public IP and serves the main catalog page
 # Functionality
 
 Public IP: 54.224.188.235
+
 SSH PORT: 2200
+
 URL: 54.224.188.235  (I did not see a requirement to DNS, and xip.io was down when I tried to add it, so I left as the IP.)
 
 Firewall is set to limit access to ports 2200, 80, 123. 
 
 There is a grader user, provided on the VM with SUDO access.
+
 USER: grader
+
 Password login is denied, but a private key is sent to grader.
 
 
